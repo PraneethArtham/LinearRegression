@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression
 # Streamlit Title
 st.title("House Price Prediction")
 # Load Dataset
-df = pd.read_csv("Housing.csv")
+df = pd.read_csv("LinearRegression/Housing.csv")
 
 # Encode categorical columns
 encoder = LabelEncoder()
